@@ -1,0 +1,30 @@
+{
+  "name": "wisphub-customercare-mcp",
+  "version": "1.0.0",
+  "description": "WispHub CustomerCare MCP Server - Gestión de clientes, tickets y saldos",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "build": "tsc",
+    "test": "jest",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.13.1",
+    "axios": "^1.10.0",
+    "date-fns": "^4.1.0",
+    "typescript": "^5.8.3",
+    "zod": "^3.25.67"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.0.4",
+    "jest": "^30.0.3",
+    "nodemon": "^3.1.10",
+    "tsx": "^4.20.3"
+  }
+}

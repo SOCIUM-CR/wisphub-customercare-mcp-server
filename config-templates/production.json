@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "wisphub-customercare": {
+      "command": "node",
+      "args": ["/ruta/absoluta/a/wisphub-customercare-mcp/dist/index.js"],
+      "env": {
+        "WISPHUB_API_KEY": "tu_api_key_de_wisphub",
+        "WISPHUB_BASE_URL": "https://api.wisphub.app",
+        "NODE_ENV": "production",
+        "LOG_LEVEL": "info",
+        "WISPHUB_TIMEOUT": "30000",
+        "WISPHUB_RETRY_ATTEMPTS": "3",
+        "WISPHUB_CACHE_CLIENTES": "300000",
+        "WISPHUB_CACHE_TICKETS": "300000",
+        "WISPHUB_CACHE_SALDOS": "60000",
+        "WISPHUB_CACHE_PLANES": "3600000"
+      }
+    }
+  }
+}
